@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-02-06T17:13:46.085494" rpa="false" schemaversion="5">
+<suite id="s1" name="Exercicio 2" source="c:\Gabriel Programação\curso-iqs-robot-exercises\exercicio_2.robot">
+<test id="s1-t1" name="Exercicio 2" line="8">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-02-06T17:13:46.180946" level="INFO">${sucessor} = 10 + 1</msg>
+<var>${sucessor}</var>
+<arg>${NUMERO} + 1</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-02-06T17:13:46.179947" elapsed="0.011992"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-02-06T17:13:46.195936" level="INFO">${antecessor} = 10 - 1</msg>
+<var>${antecessor}</var>
+<arg>${NUMERO} - 1</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-02-06T17:13:46.193938" elapsed="0.001998"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\nNúmero sucessor: ${sucessor}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-06T17:13:46.196936" elapsed="0.001999"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\nNúmero antecessor: ${antecessor}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-06T17:13:46.200934" elapsed="0.002998"/>
+</kw>
+<status status="PASS" start="2024-02-06T17:13:46.177951" elapsed="0.026981"/>
+</test>
+<status status="PASS" start="2024-02-06T17:13:46.098011" elapsed="0.111918"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Exercicio 2">Exercicio 2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
